@@ -184,3 +184,43 @@ body {
     }
   }
 }
+
+.services>.row {
+  margin-top: -73px;
+}
+
+.service-item-wrapper {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  a {
+    color: #000000;
+    text-decoration: none;
+
+    &:hover >h3,
+    &:focus > h3 {
+      background-color: #ff6821;
+      color: #ffffff;
+      cursor: pointer;
+      transition: 0.25s linear;
+    }
+
+    h3 {
+      font-size: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      box-shadow: 0 -5px #ff6821;
+      padding: 15px 0;
+      margin: 0;
+      background-color: #ffffff;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

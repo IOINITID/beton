@@ -213,4 +213,53 @@ body {
   font-size: 33px;
   font-family: 'Conv_Tabia Bold';
 }
+
+.services > .row {
+  margin-top: -73px;
+}
+
+.service-item-wrapper {
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.service-item-wrapper a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.service-item-wrapper a:hover > h3,
+.service-item-wrapper a:focus > h3 {
+  background-color: #ff6821;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+}
+
+.service-item-wrapper a h3 {
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 -5px #ff6821;
+          box-shadow: 0 -5px #ff6821;
+  padding: 15px 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.service-item-wrapper a img {
+  width: 100%;
+}
 /*# sourceMappingURL=styles.css.map */
