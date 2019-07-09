@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Titillium Maps";
+  src: url("../fonts/TitilliumMaps.woff") format("woff");
+}
+
+body {
+  font-family: "Titillium Maps", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
