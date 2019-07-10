@@ -4,7 +4,7 @@
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/beton/index.html
 
-Страница наши работы: 🐱 https://ioinitid.github.io/beton/works.html
+Страница о нас: 🐱 https://ioinitid.github.io/beton/about.html
 
 Страница работа: 🌳 https://ioinitid.github.io/beton/work.html
 
