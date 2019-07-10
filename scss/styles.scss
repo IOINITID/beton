@@ -256,9 +256,11 @@ body {
 
 .prices {
   table {
-    width: 75%;
+    width: 100%;
     text-align: center;
     margin: 0 auto 20px auto;
+    font-family: 'Conv_Tabia', sans-serif;
+    font-size: 18px;
 
     tr {
       border-bottom: 1px solid #a0a0a0;
@@ -287,6 +289,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Conv_Tabia', sans-serif;
   }
 
   form {
@@ -303,6 +306,8 @@ body {
     input {
       padding: 10px 20px;
       margin-bottom: 10px;
+      font-family: 'Tahoma', sans-serif;
+      text-transform: uppercase;
     }
 
     button {
@@ -311,6 +316,15 @@ body {
       border: none;
       text-transform: uppercase;
       font-size: 24px;
+      font-family: 'Conv_Tabia', sans-serif;
+      text-transform: uppercase;
+
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        box-shadow: 0 0 0px 2px #ff6821 inset;
+        background-color: rgba(255, 104, 33, 0.3);
+      }
     }
   }
 }
@@ -326,6 +340,30 @@ body {
   text-transform: uppercase;
   padding: 10px 0;
   margin-bottom: 10px;
+}
+
+.item-delivery-text {
+  p {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+
+    b {
+      font-weight: 700;
+    }
+
+    a {
+      color: #0000ee;
+      font-family: 'Conv_Tabia Normal', sans-serif;
+    }
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
 }
 
 .features {
@@ -388,6 +426,7 @@ body {
     color: #f23f00;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Conv_Tabia', sans-serif;
   }
 
   ul {
@@ -453,6 +492,7 @@ body {
         font-size: 16px;
         padding: 5px 10px;
         text-decoration: none;
+        font-family: 'Conv_Tabia Medium', sans-serif;
 
         &:hover,
         &:focus {
@@ -461,6 +501,7 @@ body {
         }
       }
     }
+
   }
 }
 
@@ -476,6 +517,7 @@ body {
     margin: 0;
     color: #92bfd6;
     font-family: 'Calibri', sans-serif;
+    font-size: 14px;
   }
 }
 
@@ -488,6 +530,7 @@ body {
     color: #ffffff;
     font-size: 18px;
     margin: 0;
+    font-family: 'Conv_Tabia', sans-serif;
 
     span {
       color: #ffbd20;
