@@ -543,3 +543,25 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+
+// Страница about.html
+.about {
+  background-color: #036fa7;
+}
+
+.about-title {
+  color: #ffffff;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.about-text {
+  p {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
