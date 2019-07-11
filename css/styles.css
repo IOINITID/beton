@@ -20,12 +20,12 @@
 
 @font-face {
   font-family: 'Tahoma';
-  src: url("../fonts/Tahoma.ttf") format("truetype");
+  src: url("../fonts/Tahoma.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Calibri';
-  src: url("../fonts/Calibri.ttf") format("truetype");
+  src: url("../fonts/Calibri.woff") format("woff");
 }
 
 body {
