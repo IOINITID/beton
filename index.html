@@ -8,24 +8,62 @@
   <title>Главная - Бетон</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slideout.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="img/favicon.ico">
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="row">
+  <nav class="mobile-menu" id="menu">
 
-      <div class="header">
+    <h2>Бетон - Ставрополь</h2>
 
-        <div class="col-xl-3 header-logo">
+    <ul>
+      <li class="col-xl header-active-link">
+        <a href="index.html">Главная</a>
+      </li>
+      <li class="col-xl">
+        <a href="about.html">О компании</a>
+      </li>
+      <li class="col-xl">
+        <a href="delivery.html">Доставка</a>
+      </li>
+      <li class="col-xl">
+        <a href="prices.html">Цены</a>
+      </li>
+      <li class="col-xl">
+        <a href="articles.html">Статьи</a>
+      </li>
+      <li class="col-xl">
+        <a href="contacts.html">Контакты</a>
+      </li>
+      <li class="col-xl">
+        <a href="questions.html">Вопрос-ответ</a>
+      </li>
+    </ul>
+    <div class="devider"></div>
+
+    <p>Сделано в <a href="http://web-elitit.ru/">Web-elitit.ru</a></p>
+
+  </nav>
+
+  <div id="panel">
+
+    <div class="container">
+      <div class="row header">
+
+        <div class="col-3 col-sm-3 header-menu-button">
+          <img class="toggle-button" src="img/menu-button.svg" alt="">
+        </div>
+
+        <div class="col col-sm col-md-6 col-lg-3 col-xl-3 header-logo">
           <a href="index.html">
             <img src="img/header-logo.jpg" alt="Логотип Бетон">
           </a>
         </div>
 
-        <div class="col-xl-5 header-contacts-wrapper">
+        <div class="col-sm col-lg-5 col-xl-5 header-contacts-wrapper">
 
           <div class="header-telephone-icon">
             <a href="#">
@@ -41,367 +79,383 @@
             </address>
           </div>
 
+
+        </div>
+
+        <div class="col-3 col-sm-3 header-telephone-mobile">
+          <a href="tel:+79187794870">
+            <img src="img/header-telephone-icon.png" alt="Иконка телефона">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid header-menu">
+      <div class="container">
+        <div class="row">
+          <div class="nav header-menu-navigation">
+            <ul>
+              <li class="col-lg col-xl header-active-link">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="about.html">О компании</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="delivery.html">Доставка</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="prices.html">Цены</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="articles.html">Статьи</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="contacts.html">Контакты</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="questions.html">Вопрос-ответ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid header-background-intro">
+      <div class="container">
+
+        <div class="header-intro-text">
+
+          <h1>Производство и доставка бетона<br>
+            <span>В ставрополе</span>
+          </h1>
+
+          <h2>Звоните!
+            <span>(8652)</span>
+            <span>63-94-34</span>
+          </h2>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="services">
+
+        <div class="row">
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 service-item-wrapper">
+            <a href="#">
+              <h3>Аренда<br>автобетононасосов</h3>
+              <img src="img/rent.jpg" alt="Аренда автобетононасосов">
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 service-item-wrapper">
+            <a href="#">
+              <h3>Доставка<br>бетона</h3>
+              <img src="img/delivery.jpg" alt="Доставка бетона">
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 service-item-wrapper">
+            <a href="#">
+              <h3>Строительство<br>фундаментов</h3>
+              <img src="img/building.jpg" alt="Строительство фундаментов">
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 service-item-wrapper">
+            <a href="#">
+              <h3>Заказать<br>звонок</h3>
+              <img src="img/calls.jpg" alt="Заказать звонок">
+            </a>
+          </div>
+
         </div>
 
       </div>
 
     </div>
-  </div>
 
-  <div class="container-fluid header-menu">
+    <div class="container-fluid quality">
+      <div class="container">
+        <h3 class="quality-title">Высокое качество и низкие цены</h3>
+      </div>
+    </div>
+
+    <div class="container prices">
+      <table>
+        <tr>
+          <td>Марка бетона</td>
+          <td>Класс бетона по прочности на сжатие</td>
+          <td>Цена (руб/куб)</td>
+        </tr>
+        <tr>
+          <td>M-100</td>
+          <td>B-7.5</td>
+          <td>2050</td>
+        </tr>
+        <tr>
+          <td>M-150</td>
+          <td>B-12.5</td>
+          <td>2250</td>
+        </tr>
+        <tr>
+          <td>M-200</td>
+          <td>B-15</td>
+          <td>2400</td>
+        </tr>
+        <tr>
+          <td>M-250</td>
+          <td>B-20</td>
+          <td>2550</td>
+        </tr>
+        <tr>
+          <td>M-300</td>
+          <td>B-22.5</td>
+          <td>2700</td>
+        </tr>
+        <tr>
+          <td>M-350</td>
+          <td>B-25</td>
+          <td>3350</td>
+        </tr>
+        <tr>
+          <td>M-400</td>
+          <td>B-30</td>
+          <td>3550</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container-fluid cost">
+      <div class="container">
+        <h3 class="cost-title">Калькулятор стоимости</h3>
+      </div>
+    </div>
+
     <div class="container">
-      <div class="row">
-        <div class="nav header-menu-navigation">
+      <div class="delivery-cost">
+        <p>Рассчитать стоимость доставки бетона:</p>
+        <form action="" method="post">
+          <label for="name-field"></label>
+          <input name="name" id="name-field" type="text" placeholder="Ваше имя:">
+          <label for="telephone-field"></label>
+          <input name="telephone" id="telephone-field" type="number" placeholder="Ваш телефон:">
+          <label for="mark-field"></label>
+          <input name="mark" id="mark-field" type="text" placeholder="Марка бетона:">
+          <label for="volume-field"></label>
+          <input name="volume" id="volume-field" type="text" placeholder="Объем:">
+          <label for="date-field"></label>
+          <input name="date" id="date-field" type="text" placeholder="Дата и адресс отправки:">
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container-fluid item-delivery">
+      <div class="container">
+        <h3 class="item-delivery-title">Бетон с доставкой Ставрополь</h3>
+      </div>
+    </div>
+
+    <div class="container item-delivery-text">
+      <p>Наше предприятие предлагает готовый <b>бетон с доставкой в Ставрополе</b>, а также различные марки
+        цементных растворов. У нас вы можете найти большое разнообразие марок бетона, начиная от М100 и до М400. Также
+        имеется специальный бетон для устройства фундаментов и сопряжения плит перекрытия, тяжелый бетон повышенной
+        прочности, бетон для подвалов с гидроизоляционными свойствами и многое другое. При необходимости, бетон может
+        быть
+        наделен водонепроницаемыми свойствами, с помощью добавления некоторых примесей. Мы реализуем и фибробетон из
+        металлической или полипропиленовой фибры.</p>
+
+      <p>Кроме этого, наша компания предлагает цементно-песчаный раствор, кладочный и для стяжек. Для придания бетону
+        дополнительных положительных качеств есть возможность добавления определенных элементов, влияющих на
+        устойчивость
+        к морозам в зимнее время. Можно также улучшить пластичность бетонной или цементной смеси, ускорить или,
+        наоборот,
+        замедлить процесс схватывания. При желании, <b>купить бетон в Ставрополе</b> или цементный раствор они
+        могут быть изготовлены из цемента практически любой марки.</p>
+
+      <h2>Цена бетона в Ставрополе</h2>
+
+      <p>Чтобы ответить на вопрос «<b>сколько стоит бетон</b>», необходимо предварительно разобраться - из каких
+        составляющих
+        складывается стоимость. В первую очередь, сильно влияют пропорции бетона, а точнее, его компонентов – самого
+        цемента, песка, щебня, и различных дополнительных компонентов. Также их соотношение непосредственно влияет на
+        качество готового раствора и получаемые им свойства. Например, наиболее оптимальным является соотношение –
+        1/4/2/0.5, цемент, щебень, песок, вода, соответственно.</p>
+
+      <h3>Доставка бетона</h3>
+
+      <p>Следующим фактором, влияющим на цену за один куб бетона, является количество рук, через которые он прошел,
+        начиная от самого производителя и до конечного потребителя. В данном случае наша компания значительно выделяется
+        на фоне других, т.к. мы являемся непосредственно <b>производителями бетона в Ставрополе</b>, осуществляем
+        доставку
+        собственными транспортными средствами, что положительно сказывается на цене. В зависимости от того, сколько
+        бетона
+        необходимо доставить заказчику, мы используем бетоносмесители, они же миксеры различного тоннажа, начиная от 2
+        кубов и до 10. Точная <b>стоимость доставки</b> может быть указана после определения расстояния до пункта
+        назначения.</p>
+
+      <p>Контрольно-измерительные приборы (КИПиА), системы отопления, водоснабжения, канализации, котельное
+        оборудование,
+        котлы, газовое оборудование, нефтегазовое оборудование на сайте <a href="http://ssk-ug.ru">http://ssk-ug.ru
+        </a>в
+        Ставрополе.</p>
+
+      <p>Городские автогрузоперевозки, междугородные автогрузоперевозки на сайте <a
+          href="http://www.steals.pro">http://www.steals.pro</a></p>
+
+      <p>Дизайн студия интерьеров Анны Свитневой в г.Ставрополе на сайте <a
+          href="http://vipart-stv.ru">http://vipart-stv.ru</a> дизайн интерьеров, ландшафтная архитектура.</p>
+
+      <p>Натяжные потолки в Ставрополе на сайте <a href="http://hameleon-ug.ru">http://hameleon-ug.ru</a></p>
+
+    </div>
+
+    <div class="container-fluid features">
+      <div class="container">
+        <h3 class="features-title">Наши преимущества</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid features-background">
+      <div class="container features-text-wrapper">
+        <div class="features-text">
           <ul>
-            <li class="col-xl header-active-link">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="col-xl">
-              <a href="about.html">О компании</a>
-            </li>
-            <li class="col-xl">
-              <a href="delivery.html">Доставка</a>
-            </li>
-            <li class="col-xl">
-              <a href="prices.html">Цены</a>
-            </li>
-            <li class="col-xl">
-              <a href="articles.html">Статьи</a>
-            </li>
-            <li class="col-xl">
-              <a href="contacts.html">Контакты</a>
-            </li>
-            <li class="col-xl">
-              <a href="questions.html">Вопрос-ответ</a>
-            </li>
+            <li>Мы-не посредники, на каждой машине висит реклама с телефоном, который указан на нашем сайте.</li>
+            <li>У нас реальные цены.</li>
+            <li>Мы можем показать, где и как производится бетон.</li>
+            <li>Наш бетон и раствор соответствует ГОСТу и экологическим стандартам.</li>
+            <li>Поставка продукции по Ставрополю и Ставропольскому краю круглосуточно, семь дней в неделю.</li>
+            <li>Аренда автобетононасосов с длиной стрелы от 22 м до 52 м.</li>
+            <li>Гибкое ценообразование и система оплаты.</li>
+            <li>Индивидуальный подход к каждому заказчику.</li>
+            <li>Скидки для постоянных клиентов.</li>
+            <li>Консультации по характеристикам предлагаемой продукции. Своевременное предоставление бухгалтерских
+              документов.</li>
+            <li>Предоставление сертификатов заводов-производителей и документы о качестве бетонных смесей на каждую
+              партию.</li>
+            <li>Вы можете проверить своего прораба, позвонив нам и заказав у нас бетон или раствор.</li>
+            <li>У нас есть выездная лаборатория.</li>
+            <li>Каждая машина снабжена спутниковой системой слежения.</li>
           </ul>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid header-background-intro">
-    <div class="container">
-
-      <div class="header-intro-text">
-
-        <h1>Производство и доставка бетона<br>
-          <span>В ставрополе</span>
-        </h1>
-
-        <h2>Звоните!
-          <span>(8652)</span>
-          <span>63-94-34</span>
-        </h2>
-
+    <div class="container-fluid concrete-grade">
+      <div class="container">
+        <h3 class="concrete-grade-title">Какую марку бетона для фундамента выбрать?</h3>
       </div>
-
-    </div>
-  </div>
-
-  <div class="container">
-
-    <div class="services">
-
-      <div class="row">
-
-        <div class="col-xl-3 service-item-wrapper">
-          <a href="#">
-            <h3>Аренда<br>автобетононасосов</h3>
-            <img src="img/rent.jpg" alt="Аренда автобетононасосов">
-          </a>
-        </div>
-
-        <div class="col-xl-3 service-item-wrapper">
-          <a href="#">
-            <h3>Доставка<br>бетона</h3>
-            <img src="img/delivery.jpg" alt="Доставка бетона">
-          </a>
-        </div>
-
-        <div class="col-xl-3 service-item-wrapper">
-          <a href="#">
-            <h3>Строительство<br>фундаментов</h3>
-            <img src="img/building.jpg" alt="Строительство фундаментов">
-          </a>
-        </div>
-
-        <div class="col-xl-3 service-item-wrapper">
-          <a href="#">
-            <h3>Заказать<br>звонок</h3>
-            <img src="img/calls.jpg" alt="Заказать звонок">
-          </a>
-        </div>
-
-      </div>
-
     </div>
 
-  </div>
-
-  <div class="container-fluid quality">
     <div class="container">
-      <h3 class="quality-title">Высокое качество и низкие цены</h3>
-    </div>
-  </div>
-
-  <div class="container prices">
-    <table>
-      <tr>
-        <td>Марка бетона</td>
-        <td>Класс бетона по прочности на сжатие</td>
-        <td>Цена (руб/куб)</td>
-      </tr>
-      <tr>
-        <td>M-100</td>
-        <td>B-7.5</td>
-        <td>2050</td>
-      </tr>
-      <tr>
-        <td>M-150</td>
-        <td>B-12.5</td>
-        <td>2250</td>
-      </tr>
-      <tr>
-        <td>M-200</td>
-        <td>B-15</td>
-        <td>2400</td>
-      </tr>
-      <tr>
-        <td>M-250</td>
-        <td>B-20</td>
-        <td>2550</td>
-      </tr>
-      <tr>
-        <td>M-300</td>
-        <td>B-22.5</td>
-        <td>2700</td>
-      </tr>
-      <tr>
-        <td>M-350</td>
-        <td>B-25</td>
-        <td>3350</td>
-      </tr>
-      <tr>
-        <td>M-400</td>
-        <td>B-30</td>
-        <td>3550</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="container-fluid cost">
-    <div class="container">
-      <h3 class="cost-title">Калькулятор стоимости</h3>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="delivery-cost">
-      <p>Рассчитать стоимость доставки бетона:</p>
-      <form action="" method="post">
-        <label for="name-field"></label>
-        <input name="name" id="name-field" type="text" placeholder="Ваше имя:">
-        <label for="telephone-field"></label>
-        <input name="telephone" id="telephone-field" type="number" placeholder="Ваш телефон:">
-        <label for="mark-field"></label>
-        <input name="mark" id="mark-field" type="text" placeholder="Марка бетона:">
-        <label for="volume-field"></label>
-        <input name="volume" id="volume-field" type="text" placeholder="Объем:">
-        <label for="date-field"></label>
-        <input name="date" id="date-field" type="text" placeholder="Дата и адресс отправки:">
-        <button type="submit">Отправить</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="container-fluid item-delivery">
-    <div class="container">
-      <h3 class="item-delivery-title">Бетон с доставкой Ставрополь</h3>
-    </div>
-  </div>
-
-  <div class="container item-delivery-text">
-    <p>Наше предприятие предлагает готовый <b>бетон с доставкой в Ставрополе</b>, а также различные марки
-      цементных растворов. У нас вы можете найти большое разнообразие марок бетона, начиная от М100 и до М400. Также
-      имеется специальный бетон для устройства фундаментов и сопряжения плит перекрытия, тяжелый бетон повышенной
-      прочности, бетон для подвалов с гидроизоляционными свойствами и многое другое. При необходимости, бетон может быть
-      наделен водонепроницаемыми свойствами, с помощью добавления некоторых примесей. Мы реализуем и фибробетон из
-      металлической или полипропиленовой фибры.</p>
-
-    <p>Кроме этого, наша компания предлагает цементно-песчаный раствор, кладочный и для стяжек. Для придания бетону
-      дополнительных положительных качеств есть возможность добавления определенных элементов, влияющих на устойчивость
-      к морозам в зимнее время. Можно также улучшить пластичность бетонной или цементной смеси, ускорить или, наоборот,
-      замедлить процесс схватывания. При желании, <b>купить бетон в Ставрополе</b> или цементный раствор они
-      могут быть изготовлены из цемента практически любой марки.</p>
-
-    <h2>Цена бетона в Ставрополе</h2>
-
-    <p>Чтобы ответить на вопрос «<b>сколько стоит бетон</b>», необходимо предварительно разобраться - из каких
-      составляющих
-      складывается стоимость. В первую очередь, сильно влияют пропорции бетона, а точнее, его компонентов – самого
-      цемента, песка, щебня, и различных дополнительных компонентов. Также их соотношение непосредственно влияет на
-      качество готового раствора и получаемые им свойства. Например, наиболее оптимальным является соотношение –
-      1/4/2/0.5, цемент, щебень, песок, вода, соответственно.</p>
-
-    <h3>Доставка бетона</h3>
-
-    <p>Следующим фактором, влияющим на цену за один куб бетона, является количество рук, через которые он прошел,
-      начиная от самого производителя и до конечного потребителя. В данном случае наша компания значительно выделяется
-      на фоне других, т.к. мы являемся непосредственно <b>производителями бетона в Ставрополе</b>, осуществляем доставку
-      собственными транспортными средствами, что положительно сказывается на цене. В зависимости от того, сколько бетона
-      необходимо доставить заказчику, мы используем бетоносмесители, они же миксеры различного тоннажа, начиная от 2
-      кубов и до 10. Точная <b>стоимость доставки</b> может быть указана после определения расстояния до пункта
-      назначения.</p>
-
-    <p>Контрольно-измерительные приборы (КИПиА), системы отопления, водоснабжения, канализации, котельное оборудование,
-      котлы, газовое оборудование, нефтегазовое оборудование на сайте <a href="http://ssk-ug.ru">http://ssk-ug.ru </a>в
-      Ставрополе.</p>
-
-    <p>Городские автогрузоперевозки, междугородные автогрузоперевозки на сайте <a
-        href="http://www.steals.pro">http://www.steals.pro</a></p>
-
-    <p>Дизайн студия интерьеров Анны Свитневой в г.Ставрополе на сайте <a
-        href="http://vipart-stv.ru">http://vipart-stv.ru</a> дизайн интерьеров, ландшафтная архитектура.</p>
-
-    <p>Натяжные потолки в Ставрополе на сайте <a href="http://hameleon-ug.ru">http://hameleon-ug.ru</a></p>
-
-  </div>
-
-  <div class="container-fluid features">
-    <div class="container">
-      <h3 class="features-title">Наши преимущества</h3>
-    </div>
-  </div>
-
-  <div class="container-fluid features-background">
-    <div class="container features-text-wrapper">
-      <div class="features-text">
+      <div class="concrete-grade-text">
+        <p>Согласно СНиП бетон для изготовления фундаментов должен быть марки не ниже
+          М250.<br>Основные марки товарного бетона и сферы их применения:</p>
         <ul>
-          <li>Мы-не посредники, на каждой машине висит реклама с телефоном, который указан на нашем сайте.</li>
-          <li>У нас реальные цены.</li>
-          <li>Мы можем показать, где и как производится бетон.</li>
-          <li>Наш бетон и раствор соответствует ГОСТу и экологическим стандартам.</li>
-          <li>Поставка продукции по Ставрополю и Ставропольскому краю круглосуточно, семь дней в неделю.</li>
-          <li>Аренда автобетононасосов с длиной стрелы от 22 м до 52 м.</li>
-          <li>Гибкое ценообразование и система оплаты.</li>
-          <li>Индивидуальный подход к каждому заказчику.</li>
-          <li>Скидки для постоянных клиентов.</li>
-          <li>Консультации по характеристикам предлагаемой продукции. Своевременное предоставление бухгалтерских
-            документов.</li>
-          <li>Предоставление сертификатов заводов-производителей и документы о качестве бетонных смесей на каждую
-            партию.</li>
-          <li>Вы можете проверить своего прораба, позвонив нам и заказав у нас бетон или раствор.</li>
-          <li>У нас есть выездная лаборатория.</li>
-          <li>Каждая машина снабжена спутниковой системой слежения.</li>
+          <li><span>М-100</span> - применяется при строительстве различных неответственных и не несущих конструкций,
+            например, при
+            заливке тротуаров, пешеходных дорожек и площадок для стоянки автомобилей, при изготовлении отмостки.</li>
+          <li><span>М-150</span> - по крепости незначительно отличается от вышеописанной марки бетона, следовательно,
+            область
+            применения бетона М 150 практически аналогична.</li>
+          <li><span>М-200</span> - используется при производстве плит перекрытия, для изготовления разнообразных
+            железобетонных поясов,
+            покрытия дорог при малых нагрузках.</li>
+          <li><span>М-250</span> - по прочности имеет незначительные отличия от вышеописанной марки бетона, поэтому
+            область применения
+            бетона М 250 почти аналогична.</li>
+          <li><span>М-300</span> - применяется при отливке лестничных площадок, тротуарных плит, дорог, подверженных
+            сильным нагрузкам,
+            при производстве плит перекрытия, различных колодцев и труб, а также других ответственных конструкций.</li>
+          <li><span>М-350</span> - как и бетон марки М 300, применяется при строительстве ответственных конструкций: при
+            строительстве
+            лестничных площадок, бордюров (поребриков), при строительстве автодорог, способных выдерживать большие
+            нагрузки.</li>
+          <li><span>М-400</span> - применяется при возведении фундаментов зданий, в качестве несущего слоя при
+            строительстве
+            высокопрочных полов в гаражах, подвалах, различных мастерских и производственных цехах, а также многих
+            других
+            служебных помещений, где прочность пола важнее других качеств.</li>
+          <li><span>М-450</span> - считается одной из самых крепких марок строительного бетона. Используется при
+            строительстве
+            ответственных конструкций, способных выдержать большие нагрузки. Применяется при строительстве высокопрочных
+            несущих плит перекрытия, при возведении фундаментов зданий и других ответственных конструкций.</li>
+          <li><span>М-500</span> - являясь самым крепким и надежным среди популярных марок, нашел свое применение при
+            возведении
+            отвественных конструкций, там, где необходима чрезвычайная надежность и долговечность. Бетон этой марки
+            отлично защищен от всевозможных разрушений, и продолжает крепко стоять даже в самых суровых условиях
+            эксплуатации, когда другие менее крепкие бетоны уже сдаются.</li>
         </ul>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid concrete-grade">
-    <div class="container">
-      <h3 class="concrete-grade-title">Какую марку бетона для фундамента выбрать?</h3>
-    </div>
-  </div>
+    <div class="container-fluid footer">
+      <div class="container">
 
-  <div class="container">
-    <div class="concrete-grade-text">
-      <p>Согласно СНиП бетон для изготовления фундаментов должен быть марки не ниже
-        М250.<br>Основные марки товарного бетона и сферы их применения:</p>
-      <ul>
-        <li><span>М-100</span> - применяется при строительстве различных неответственных и не несущих конструкций,
-          например, при
-          заливке тротуаров, пешеходных дорожек и площадок для стоянки автомобилей, при изготовлении отмостки.</li>
-        <li><span>М-150</span> - по крепости незначительно отличается от вышеописанной марки бетона, следовательно,
-          область
-          применения бетона М 150 практически аналогична.</li>
-        <li><span>М-200</span> - используется при производстве плит перекрытия, для изготовления разнообразных
-          железобетонных поясов,
-          покрытия дорог при малых нагрузках.</li>
-        <li><span>М-250</span> - по прочности имеет незначительные отличия от вышеописанной марки бетона, поэтому
-          область применения
-          бетона М 250 почти аналогична.</li>
-        <li><span>М-300</span> - применяется при отливке лестничных площадок, тротуарных плит, дорог, подверженных
-          сильным нагрузкам,
-          при производстве плит перекрытия, различных колодцев и труб, а также других ответственных конструкций.</li>
-        <li><span>М-350</span> - как и бетон марки М 300, применяется при строительстве ответственных конструкций: при
-          строительстве
-          лестничных площадок, бордюров (поребриков), при строительстве автодорог, способных выдерживать большие
-          нагрузки.</li>
-        <li><span>М-400</span> - применяется при возведении фундаментов зданий, в качестве несущего слоя при
-          строительстве
-          высокопрочных полов в гаражах, подвалах, различных мастерских и производственных цехах, а также многих других
-          служебных помещений, где прочность пола важнее других качеств.</li>
-        <li><span>М-450</span> - считается одной из самых крепких марок строительного бетона. Используется при
-          строительстве
-          ответственных конструкций, способных выдержать большие нагрузки. Применяется при строительстве высокопрочных
-          несущих плит перекрытия, при возведении фундаментов зданий и других ответственных конструкций.</li>
-        <li><span>М-500</span> - являясь самым крепким и надежным среди популярных марок, нашел свое применение при
-          возведении
-          отвественных конструкций, там, где необходима чрезвычайная надежность и долговечность. Бетон этой марки
-          отлично защищен от всевозможных разрушений, и продолжает крепко стоять даже в самых суровых условиях
-          эксплуатации, когда другие менее крепкие бетоны уже сдаются.</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="container-fluid footer">
-    <div class="container">
-
-      <div class="row">
-        <div class="nav footer-menu-navigation">
-          <ul>
-            <li class="col-xl footer-active-link">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="col-xl">
-              <a href="about.html">О компании</a>
-            </li>
-            <li class="col-xl">
-              <a href="delivery.html">Доставка</a>
-            </li>
-            <li class="col-xl">
-              <a href="prices.html">Цены</a>
-            </li>
-            <li class="col-xl">
-              <a href="articles.html">Статьи</a>
-            </li>
-            <li class="col-xl">
-              <a href="contacts.html">Контакты</a>
-            </li>
-            <li class="col-xl">
-              <a href="questions.html">Вопрос-ответ</a>
-            </li>
-            <li class="col-xl site-map">
-              <a href="sitemap.html">Карта сайта</a>
-            </li>
-          </ul>
+        <div class="row footer-menu">
+          <div class="nav footer-menu-navigation">
+            <ul>
+              <li class="col-lg col-xl footer-active-link">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="about.html">О компании</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="delivery.html">Доставка</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="prices.html">Цены</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="articles.html">Статьи</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="contacts.html">Контакты</a>
+              </li>
+              <li class="col-lg col-xl">
+                <a href="questions.html">Вопрос-ответ</a>
+              </li>
+              <li class="col-lg col-xl site-map">
+                <a href="sitemap.html">Карта сайта</a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="row footer-copyright">
+          <div class="col-12 col-sm-3 col-md-3 col-lg-2 col-xl-2 footer-copyright-text">
+            <p>Copyright © Бетон</p>
+          </div>
+          <address class="col-12 col-sm col-md col-lg col-xl footer-copyright-address">
+            <p>г. Ставрополь,
+              <span>пр. Кулакова, 13 г,</span> (8652)
+              <span>63-94-34, 8-918-779-4870</span>
+            </p>
+          </address>
+          <div class="col-12 col-sm-3 col-md-3 col-lg-2 col-xl-2 footer-copyright-logo">
+            <a href="http://www.rumedia-group.ru" target="_blank">
+              <img src="img/copyright-image.png" alt="Copyright Бетон">
+            </a>
+          </div>
+        </div>
+
       </div>
-
-      <div class="row footer-copyright">
-        <div class="col-xl-2 footer-copyright-text">
-          <p>Copyright © Бетон</p>
-        </div>
-        <address class="col-xl footer-copyright-address">
-          <p>г. Ставрополь,
-            <span>пр. Кулакова, 13 г,</span> (8652)
-            <span>63-94-34, 8-918-779-4870</span>
-          </p>
-        </address>
-        <div class="col-xl-3 footer-copyright-logo">
-          <a href="http://www.rumedia-group.ru" target="_blank">
-            <img src="img/copyright-image.png" alt="Copyright Бетон">
-          </a>
-        </div>
-      </div>
-
     </div>
+
   </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideout.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 
