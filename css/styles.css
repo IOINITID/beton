@@ -690,4 +690,12 @@ body {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
+.sitemap-text ul {
+  margin-bottom: 20px;
+}
+
+.sitemap-text ul li a {
+  color: #551a8b;
+}
 /*# sourceMappingURL=styles.css.map */
