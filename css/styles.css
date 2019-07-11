@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Tabia Normal';
-  src: url("../fonts/Tabia Normal.ttf") format("truetype");
+  src: url("../fonts/TabiaNormal.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Tabia Medium';
-  src: url("../fonts/Tabia Medium.ttf") format("truetype");
+  src: url("../fonts/TabiaMedium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Tabia Bold';
-  src: url("../fonts/Tabia Bold.ttf") format("truetype");
+  src: url("../fonts/TabiaBold.ttf") format("truetype");
 }
 
 @font-face {
