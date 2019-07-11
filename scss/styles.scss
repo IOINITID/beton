@@ -474,6 +474,7 @@ body {
         &:focus,
         &:active {
           color: #ffbd20;
+          text-decoration: none;
         }
       }
     }
@@ -544,7 +545,6 @@ body {
   align-items: center;
 }
 
-// Страница about.html
 .about {
   background-color: #036fa7;
 }

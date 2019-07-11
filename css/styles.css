@@ -517,6 +517,7 @@ body {
 
 .footer-menu-navigation ul li a:hover, .footer-menu-navigation ul li a:focus, .footer-menu-navigation ul li a:active {
   color: #ffbd20;
+  text-decoration: none;
 }
 
 .footer-menu-navigation ul .footer-active-link a {
