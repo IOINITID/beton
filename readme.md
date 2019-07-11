@@ -6,13 +6,15 @@
 
 Страница о нас: 🐱 https://ioinitid.github.io/beton/about.html
 
-Страница работа: 🌳 https://ioinitid.github.io/beton/work.html
+Страница доставка: 🌳 https://ioinitid.github.io/beton/delivery.html
 
 Страница цены: 🦊 https://ioinitid.github.io/beton/prices.html
 
-Страница о нас: 📝 https://ioinitid.github.io/beton/about.html
+Страница статьи: 📝 https://ioinitid.github.io/beton/articles.html
 
 Страница контакты : 🐧 https://ioinitid.github.io/beton/contacts.html
+
+Страница карта сайта: 📝 https://ioinitid.github.io/beton/sitemap.html
 
 ------------
 
