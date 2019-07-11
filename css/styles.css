@@ -1,49 +1,36 @@
-@charset "UTF-8";
 @font-face {
-  font-family: 'Conv_Tabia Normal';
-  src: url("../fonts/Tabia Normal.eot");
-  src: local("☺"), url("../fonts/Tabia Normal.woff") format("woff"), url("../fonts/Tabia Normal.ttf") format("truetype"), url("../fonts/Tabia Normal.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Tabia Normal';
+  src: url("../fonts/Tabia Normal.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Conv_Tabia Medium';
-  src: url("../fonts/Tabia Medium.eot");
-  src: local("☺"), url("../fonts/Tabia Medium.woff") format("woff"), url("../fonts/Tabia Medium.ttf") format("truetype"), url("../fonts/Tabia Medium.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Tabia Medium';
+  src: url("../fonts/Tabia Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Conv_Tabia Bold';
-  src: url("../fonts/Tabia Bold.eot");
-  src: local("☺"), url("../fonts/Tabia Bold.woff") format("woff"), url("../fonts/Tabia Bold.ttf") format("truetype"), url("../fonts/Tabia Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Tabia Bold';
+  src: url("../fonts/Tabia Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Conv_Tabia';
-  src: url("../fonts/Tabia.eot");
-  src: local("☺"), url("../fonts/Tabia.woff") format("woff"), url("../fonts/Tabia.ttf") format("truetype"), url("../fonts/Tabia.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Tabia';
+  src: url("../fonts/Tabia.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Tahoma';
-  src: url("../fonts/Tahoma.ttf") format("ttf");
+  src: url("../fonts/Tahoma.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Calibri';
-  src: url("../fonts/Calibri.ttf") format("ttf");
+  src: url("../fonts/Calibri.ttf") format("truetype");
 }
 
 body {
   color: #000000;
-  font-family: 'Conv_Tabia Normal', sans-serif;
+  font-family: 'Tabia Normal', sans-serif;
 }
 
 .header {
@@ -107,11 +94,11 @@ body {
   padding: 0;
   margin: 0;
   font-size: 20px;
-  font-family: 'Conv_Tabia Normal', sans-serif;
+  font-family: 'Tabia Normal', sans-serif;
 }
 
 .header-address address a {
-  font-family: 'Conv_Tabia Medium', sans-serif;
+  font-family: 'Tabia Medium', sans-serif;
   font-size: 20px;
   color: #000000;
   text-align: right;
@@ -225,7 +212,7 @@ body {
 
 .header-intro-text h2 span:nth-of-type(2) {
   font-size: 33px;
-  font-family: 'Conv_Tabia Bold';
+  font-family: 'Tabia Bold';
 }
 
 .services > .row {
@@ -292,7 +279,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 0 auto 20px auto;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
   font-size: 18px;
 }
 
@@ -322,7 +309,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 10px;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
 }
 
 .delivery-cost form {
@@ -355,7 +342,7 @@ body {
   border: none;
   text-transform: uppercase;
   font-size: 24px;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
   text-transform: uppercase;
 }
 
@@ -390,7 +377,7 @@ body {
 
 .item-delivery-text p a {
   color: #0000ee;
-  font-family: 'Conv_Tabia Normal', sans-serif;
+  font-family: 'Tabia Normal', sans-serif;
 }
 
 .item-delivery-text h2 {
@@ -460,7 +447,7 @@ body {
   color: #f23f00;
   text-align: center;
   margin-bottom: 10px;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
 }
 
 .concrete-grade-text ul {
@@ -529,7 +516,7 @@ body {
   font-size: 16px;
   padding: 5px 10px;
   text-decoration: none;
-  font-family: 'Conv_Tabia Medium', sans-serif;
+  font-family: 'Tabia Medium', sans-serif;
 }
 
 .footer-menu-navigation ul .site-map a:hover, .footer-menu-navigation ul .site-map a:focus {
@@ -572,7 +559,7 @@ body {
   color: #ffffff;
   font-size: 18px;
   margin: 0;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
 }
 
 .footer-copyright-address p span {
@@ -646,7 +633,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 0 auto 20px auto;
-  font-family: 'Conv_Tabia', sans-serif;
+  font-family: 'Tabia', sans-serif;
   font-size: 18px;
 }
 
