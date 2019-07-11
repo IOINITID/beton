@@ -258,8 +258,6 @@ body {
   background-color: #ff6821;
   color: #ffffff;
   cursor: pointer;
-  -webkit-transition: 0.25s linear;
-  transition: 0.25s linear;
 }
 
 .service-item-wrapper a h3 {
